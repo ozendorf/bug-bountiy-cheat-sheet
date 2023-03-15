@@ -30,9 +30,13 @@ Content discovery
 -- dnsrecon
 -- OSINT subdomain discovery tool - sublist3r: https://github.com/aboul3la/Sublist3r
 
-Vulnerability management 
+- Vulnerability management 
 - NVD : https://nvd.nist.gov/vuln/full-listing
 - Exploit Database: http://exploit-db.com/
 
+#TODO : obtain wordlist for all the notes related to enumeration (see THM for ex)
+
 Authentication bypass
 - user enumeration : ffuf https://github.com/ffuf/ffuf
+- cookie hash: https://crackstation.net/
+
