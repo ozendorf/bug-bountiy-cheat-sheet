@@ -7,12 +7,32 @@ Content discovery
 -- robots.txt
 -- sitemap.xml
 -- http headers
---
+-- google hacking / dorking: https://en.wikipedia.org/wiki/Google_hacking
 - Framework discovery 
 -- https://wiki.owasp.org/index.php/OWASP_favicon_database
 
 
+- OSINT 
+-- https://www.wappalyzer.com/
+-- https://archive.org/web/
+
+- Automated discovery 
+-- wordlists: https://github.com/danielmiessler/SecLists
+-- dirb
+-- gobuster
+-- ffuf
+
+- Subdomain enumeration
+-- OSINT
+-- Brute Force
+-- Virtual hosts
+-- tools : https://crt.sh and https://ui.ctsearch.entrust.com/ui/ctsearchui
+-- dnsrecon
+-- OSINT subdomain discovery tool - sublist3r: https://github.com/aboul3la/Sublist3r
 
 Vulnerability management 
 - NVD : https://nvd.nist.gov/vuln/full-listing
 - Exploit Database: http://exploit-db.com/
+
+Authentication bypass
+- user enumeration : ffuf https://github.com/ffuf/ffuf
