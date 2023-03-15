@@ -2,6 +2,10 @@ Reconnaissance
 - nmap 
 - Dirbuster 
 
+Content discovery 
+- Framework discovery 
+-- https://wiki.owasp.org/index.php/OWASP_favicon_database
+
 
 Vulnerability management 
 - NVD : https://nvd.nist.gov/vuln/full-listing
