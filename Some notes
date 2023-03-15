@@ -3,8 +3,14 @@ Reconnaissance
 - Dirbuster 
 
 Content discovery 
+- Manual discovery 
+-- robots.txt
+-- sitemap.xml
+-- http headers
+--
 - Framework discovery 
 -- https://wiki.owasp.org/index.php/OWASP_favicon_database
+
 
 
 Vulnerability management 
