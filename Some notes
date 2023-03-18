@@ -40,3 +40,8 @@ Authentication bypass
 - user enumeration : ffuf https://github.com/ffuf/ffuf
 - cookie hash: https://crackstation.net/
 
+SSRF
+- look for potential ssrf in 
+-- full URL used as parameter in the address bar
+-- hidden field in a form with applicaiton url
+-- path in URL
