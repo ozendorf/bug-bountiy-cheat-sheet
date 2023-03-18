@@ -1,47 +1,52 @@
-Reconnaissance 
-- nmap 
-- Dirbuster 
+## Enumeration Techniques
 
-Content discovery 
+### Reconnaissance 
+
+- **nmap**
+- **Dirbuster**
+
+### Content Discovery 
+
 - Manual discovery 
--- robots.txt
--- sitemap.xml
--- http headers
--- google hacking / dorking: https://en.wikipedia.org/wiki/Google_hacking
+    - **robots.txt**
+    - **sitemap.xml**
+    - **http headers**
+    - **Google hacking / dorking:** [https://en.wikipedia.org/wiki/Google_hacking](https://en.wikipedia.org/wiki/Google_hacking)
 - Framework discovery 
--- https://wiki.owasp.org/index.php/OWASP_favicon_database
-
+    - **OWASP favicon database:** [https://wiki.owasp.org/index.php/OWASP_favicon_database](https://wiki.owasp.org/index.php/OWASP_favicon_database)
 
 - OSINT 
--- https://www.wappalyzer.com/
--- https://archive.org/web/
+    - **Wappalyzer:** [https://www.wappalyzer.com/](https://www.wappalyzer.com/)
+    - **Wayback Machine:** [https://archive.org/web/](https://archive.org/web/)
 
 - Automated discovery 
--- wordlists: https://github.com/danielmiessler/SecLists
--- dirb
--- gobuster
--- ffuf
+    - **Wordlists:** [https://github.com/danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
+    - **dirb**
+    - **gobuster**
+    - **ffuf**
 
-- Subdomain enumeration
--- OSINT
--- Brute Force
--- Virtual hosts
--- tools : https://crt.sh and https://ui.ctsearch.entrust.com/ui/ctsearchui
--- dnsrecon
--- OSINT subdomain discovery tool - sublist3r: https://github.com/aboul3la/Sublist3r
+- Subdomain Enumeration
+    - OSINT
+    - Brute Force
+    - Virtual hosts
+    - **CRT.SH:** [https://crt.sh](https://crt.sh)
+    - **CT Search:** [https://ui.ctsearch.entrust.com/ui/ctsearchui](https://ui.ctsearch.entrust.com/ui/ctsearchui)
+    - **dnsrecon**
+    - **Sublist3r:** [https://github.com/aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r)
 
-- Vulnerability management 
-- NVD : https://nvd.nist.gov/vuln/full-listing
-- Exploit Database: http://exploit-db.com/
+### Vulnerability Management 
+- **NVD:** [https://nvd.nist.gov/vuln/full-listing](https://nvd.nist.gov/vuln/full-listing)
+- **Exploit Database:** [http://exploit-db.com/](http://exploit-db.com/)
 
-#TODO : obtain wordlist for all the notes related to enumeration (see THM for ex)
+### Authentication Bypass
+- User Enumeration: **ffuf:** [https://github.com/ffuf/ffuf](https://github.com/ffuf/ffuf)
+- Cookie Hash: [https://crackstation.net/](https://crackstation.net/)
 
-Authentication bypass
-- user enumeration : ffuf https://github.com/ffuf/ffuf
-- cookie hash: https://crackstation.net/
+### SSRF
+- Look for potential SSRF in 
+    - Full URL used as parameter in the address bar
+    - Hidden field in a form with application URL
+    - Path in URL
 
-SSRF
-- look for potential ssrf in 
--- full URL used as parameter in the address bar
--- hidden field in a form with applicaiton url
--- path in URL
+### To-Do
+- Obtain wordlist for all the notes related to enumeration (see THM for ex)
