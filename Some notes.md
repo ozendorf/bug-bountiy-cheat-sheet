@@ -34,6 +34,8 @@
     - **dnsrecon**
     - **Sublist3r:** [https://github.com/aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r)
 
+
+
 ### Vulnerability Management 
 - **NVD:** [https://nvd.nist.gov/vuln/full-listing](https://nvd.nist.gov/vuln/full-listing)
 - **Exploit Database:** [http://exploit-db.com/](http://exploit-db.com/)
@@ -50,3 +52,8 @@
 
 ### To-Do
 - Obtain wordlist for all the notes related to enumeration (see THM for ex)
+
+
+
+### Application proxy
+- foxy proxy https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
