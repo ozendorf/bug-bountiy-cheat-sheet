@@ -1,0 +1,4 @@
+### Passive reconnaissance
+- whois to query WHOIS servers
+- nslookup to query dns servers
+- dig to query dns servers
