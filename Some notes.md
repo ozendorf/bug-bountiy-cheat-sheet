@@ -53,7 +53,9 @@
 ### To-Do
 - Obtain wordlist for all the notes related to enumeration (see THM for ex)
 
-
+###
+- XSS
+    - https://code.google.com/p/domxsswiki/wiki/FindingDOMXSS
 
 ### Application proxy
 - foxy proxy https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/
