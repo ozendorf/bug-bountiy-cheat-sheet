@@ -1,4 +1,15 @@
 ### Passive reconnaissance
+
+Tools: 
 - whois to query WHOIS servers
 - nslookup to query dns servers
 - dig to query dns servers
+
+online service:
+DNSdumpsters
+shodan.io
+
+### Active reconnaissance
+
+
+
