@@ -11,5 +11,8 @@ shodan.io
 
 ### Active reconnaissance
 
+Nmap
+tip for firewall reconnaissance: using ack scan for based on which ACK packets resulted in responses, you will learn which ports were not blocked by the firewall. In other words, this type of scan is more suitable to discover firewall rule sets and configuration.
+-> use -sA
 
-
+a similar one is the window scan (-sW)
