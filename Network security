@@ -21,3 +21,6 @@ a similar one is the window scan (-sW)
 ### MITM attacks 
 - Ettercap : https://www.ettercap-project.org/
 - Bettercap : https://www.bettercap.org/
+
+### Password attacks
+- wordlists: https://www.kaggle.com/datasets/wjburns/common-password-list-rockyoutxt
