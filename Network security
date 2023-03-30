@@ -24,3 +24,4 @@ a similar one is the window scan (-sW)
 
 ### Password attacks
 - wordlists: https://www.kaggle.com/datasets/wjburns/common-password-list-rockyoutxt
+- password attack tool: https://github.com/vanhauser-thc/thc-hydra
