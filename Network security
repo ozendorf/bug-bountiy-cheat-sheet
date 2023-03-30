@@ -16,3 +16,8 @@ tip for firewall reconnaissance: using ack scan for based on which ACK packets r
 -> use -sA
 
 a similar one is the window scan (-sW)
+
+
+### MITM attacks 
+- Ettercap : https://www.ettercap-project.org/
+- Bettercap : 
